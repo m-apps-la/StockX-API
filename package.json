@@ -1,0 +1,17 @@
+{
+  "name": "stockx",
+  "version": "1.0.0",
+  "description": "StockX take-home",
+  "main": "App/app.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon App/app.js"
+  },
+  "author": "Mike Mulderink",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pg": "^7.12.1"
+  }
+}
