@@ -1,1 +1,1 @@
-[] RUN "docker-compose" to start app
+[] RUN "docker-compose up" to start app
