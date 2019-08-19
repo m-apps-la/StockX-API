@@ -1,5 +1,5 @@
 module.exports = (req) => {
-  const middleware = require('../middleware.js'),
+  const middleware = require('./middleware.js'),
     pool = middleware.connectToDb(),
     queryCreate = {
       name: 'Create Database',

@@ -1,5 +1,5 @@
 const express = require('express'),
-  middleware = require('./middleware.js'),
+  middleware = require('./middleware/middleware.js'),
   bodyParser = require('body-parser'),
   app = express(),
   PORT = 8080;

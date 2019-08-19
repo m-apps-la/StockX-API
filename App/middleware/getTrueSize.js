@@ -1,5 +1,5 @@
 module.exports = (req, res, next) => {
-  const middleware = require('../middleware.js'),
+  const middleware = require('./middleware.js'),
     pool = middleware.connectToDb(),
     queryObj = {
       name: 'Get True to Size',

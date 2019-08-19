@@ -1,13 +1,6 @@
 version: "3"
 
 services:
-  api:
-    build: .
-    volumes:
-      - .:/user/src/app
-    ports:
-      - 8080:8080
-
   db:
     image: postgres
     restart: always
@@ -15,3 +8,11 @@ services:
       POSTGRES_PASSWORD: password
     ports:
       - 5430:5432
+  api:
+    build: .
+    volumes:
+      - .:/user/src/app
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
