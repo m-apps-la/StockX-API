@@ -1,3 +1,5 @@
+// Tests are not finished
+
 const request = require('supertest'),
   app = 'localhost:8080'
 
@@ -14,3 +16,4 @@ describe('Test the root path', () => {
       .expect(200);
   })
 })
+
