@@ -1,3 +1,5 @@
 [] RUN "docker-compose up" to start app
 
-[] Finish Tests
+[] Finish Jest Tests
+
+[] Finish Docker Test File 
